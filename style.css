@@ -1,0 +1,62 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+.font{
+    font-family: roboto;
+}
+
+.logo-size{
+    height: 12%;
+    width: 15%;
+}
+
+.btn-color{
+    border-color:  #5E3BEE;
+    color: #5E3BEE;
+}
+
+.home{
+    color: #5E3BEE;
+}
+
+.box-shadow{
+    box-shadow: 0px 5.33px 80px 0px #0000001A;
+}
+@media  screen and (min-width:0px) and (max-width:900px) {
+    .logo-size{
+        height: 30% !important;
+        width: 23% !important;
+    }
+}
+
+.para-color{
+    color: #1C1E53;
+}
+
+.head-color{
+    color: #282938;
+}
+
+.btn-purple{
+    background-color: #5E3BEE;
+    color: white;
+}
+
+.bg-color{
+    background-color: #F5FCFF;
+}
+
+.square{
+    height: 300px !important;
+    width: 300px !important;
+    background-color: #F5FCFF;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
