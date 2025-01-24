@@ -8,11 +8,16 @@
 }
 
 .logo-size {
-    height: 12%;
-    width: 15%;
+    height: 12% !important;
+    width: 15% !important;
 }
 
 .btn-color {
+    border-color: #5E3BEE;
+    color: #5E3BEE;
+}
+
+.btn-color:hover {
     border-color: #5E3BEE;
     color: #5E3BEE;
 }
@@ -27,13 +32,14 @@
 
 @media screen and (min-width:0px) and (max-width:900px) {
     .logo-size {
-        height: 30% !important;
-        width: 23% !important;
+        height: 40% !important;
+        width: 60% !important;
     }
 
     .input {
         padding: 20px !important;
     }
+
 }
 
 .para-color {
@@ -49,6 +55,11 @@
     color: white;
 }
 
+.btn-purple:hover {
+    background-color: #5E3BEE;
+    color: white;
+}
+
 .bg-color {
     background-color: #F5FCFF;
 }
@@ -57,6 +68,11 @@
     height: 300px !important;
     width: 300px !important;
     background-color: #F5FCFF;
+    border-radius: 10px;
+}
+
+.purple-border{
+    border-bottom: 4px solid #5E3BEE;
 }
 
 .flex {
@@ -71,6 +87,16 @@
     box-shadow: 0px 0px 32px 0px #00000026;
     border: none;
 
+}
+
+
+.logo-size {
+    height: 25% !important;
+    width: 40% !important;
+}
+
+.b-t {
+    border-top: 1.8px solid #b9b8b8;
 }
 
 .flex1 {
@@ -105,8 +131,8 @@
 }
 
 .adjust1 {
-    height: 30% !important;
-    width: 60% !important;
+    height: 18% !important;
+    width: 18% !important;
 }
 
 
@@ -120,13 +146,13 @@
     }
 }
 
-@media screen and (min-width:1400px) and (max-width:2100px){
-    .input{
+@media screen and (min-width:1400px) and (max-width:2100px) {
+    .input {
         padding: 20px 300px !important;
     }
 }
 
-.flexzero{
+.flexzero {
     display: flex;
     justify-content: space-between;
 }
